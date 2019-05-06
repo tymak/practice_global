@@ -1,0 +1,63 @@
+html{
+font-family: "roboto", sans-serif;
+font-size:16px;
+
+}
+
+
+strong{
+font-size: 300%;
+color:white;
+margin-left:8vh;
+ 
+}
+.clanek{
+    font-size: 300%;
+    color:black;
+    margin-left:8vw;}
+
+
+.container {
+display:flex;
+flex-direction: column;
+background-color: gray;
+justify-content: center;
+
+
+}
+hr{
+margin-top:1rem;
+margin-bottom: 1rem;
+color: grey;
+size: 200;
+}
+.side{
+    background-color: brown;
+    text-align:center;
+    width:20%;
+    min-width: 10rem;
+     
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    height:80vh;
+    background-color: white;
+   
+}
+.boxinner{
+    padding:2rem; 
+    
+}
+
+.top{
+    height: 8rem;
+    background-color: black;
+    padding:2rem;
+    
+}
+.bot{
+    height:8rem;
+background-color: grey;
+padding:2rem;
+}
