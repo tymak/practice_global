@@ -1,0 +1,41 @@
+$height:40em;
+$font_size:2rem;
+$backrgound:url("./../img/bg.jpg");
+$color:#101010;
+$barva:110;
+body{
+    background-image: url("./../img/bg.jpg");
+    margin: 0;
+    background-repeat: no-repeat;
+   background-size: auto;
+    height:$height ;
+    font-family: "roboto",sans-serif;
+    
+
+    
+}
+
+.horni,.dolni{
+font-family: "Roboto", sans-serif;
+color:white;
+
+}
+main{
+    height:$height;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;  
+   padding: 4rem;
+   background-color:rgba(10,10,10,0.7);
+
+ 
+}
+.horni{
+    align-self: flex-end; 
+    font-size: $font_size;
+
+}
+.dolni{
+    align-self: flex-start;
+    font-size: 1.5*$font_size;
+}
