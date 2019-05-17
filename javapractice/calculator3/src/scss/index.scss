@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background: #f3efe8 url('/img/bg.svg') center/cover; 
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  width: 24rem;
+  height:40rem;
+  background-color: white;
+  box-shadow: 0px 0px 32px gray;
+  display:grid;
+  grid-template:8rem repeat(5,1fr)/repeat(4,1fr);
+
+  &__output {
+    
+    color: white;
+    text-align: right;
+    background-color: #867666;
+    border: none;
+    outline: none;
+    font-size: 220%;
+    padding: 0 1rem;
+    font-weight: 300;
+  }
+  
+  &__input {
+    width: 100%;
+    display: block;
+    
+   
+    color: white;
+    text-align: right;
+    background-color: #e1b80D;
+    border: none;
+    outline: none;
+    font-size: 150%;
+    padding: 0.4rem 1rem 0 1rem;
+    font-weight: 300;
+  }
+  
+  &__btn {
+    background-color: #eee;
+    cursor: pointer;
+    border: none;
+    font-size: 150%;
+    font-weight: 300;
+  }
+  
+  &__btn--digit {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 150%;
+    font-weight: 300;
+  }
+  
+  &__btn:hover {
+    background-color: #ddd;
+  }
+  
+  &__btn--digit:hover {
+    background-color: #eee;
+  }
+  
+ .calc__box{
+  grid-area:1/span 4;
+  
+ }
+ #digit0{
+   grid-area:6/span 2;
+    
+ }
+ #digit10{
+  grid-area:6/3/6/3;
+   
+}
+  #digit1{
+  grid-area:5/1/5/1;}
+  #digit2{
+    grid-area:5/2/5/2;}
+  #digit3{
+    grid-area:5/3/5/3;
+  }
+  #digit4{
+    grid-area:4/1/4/1;
+  }
+  #digit5{
+    grid-area:4/2/4/2;
+  }
+  #digit6{
+    grid-area:4/3/4/3;
+  }
+  #digit7{
+    grid-area:3/1/3/1;}
+  #digit8{
+   grid-area:3/2/3/2;}
+  #digit9{
+    grid-area:3/3/3/3;}
+  #operator0{
+   grid-area:2/1/2/1;}
+  #operator1{
+    grid-area:2/2/2/2;}
+  #operator2{
+     grid-area:2/3/2/3;}
+  #operator3{
+    grid-area:2/4/4/4;
+  }
+  #operator4{
+    grid-area:4/4/6/4;
+  }
+  #operator5{
+    grid-area:6/4/6/4;
+  }
+}
