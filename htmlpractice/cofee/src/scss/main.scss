@@ -1,0 +1,68 @@
+$font_basic:16px;
+
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: $font_basic;
+
+    @media screen and (max-width: 800px) {
+        font-size: 12px;
+    }
+}
+
+
+
+body{
+    background-image: url("./../img/photo.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    height:100vh;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: flex-end;
+    margin:0;
+  
+    
+}
+.container{
+    background-color: rgba(rgba(153, 53, 7, 0.911), $alpha: 0.6);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    width:30vw;
+    height:100vh;
+    margin-left:2vw;
+    color:white;
+    overflow: hidden;
+    min-width:300px;
+    height:100vh;
+    
+    h1{
+       
+        font-size: 5*$font_basic;
+        text-align: center;
+        margin-top:5vw;
+
+    }
+    p{
+       
+       text-align:center;
+       font-size:1.5*$font_basic;
+
+    }
+div{
+    height:5*$font_basic;
+    width:15*$font_basic;
+    text-align: center;
+    background-color: red;
+    padding-top:(5*$font_basic -$font_basic)/2;
+    margin-top:0.5*$font_basic;
+    font-size:2*$font_basic;
+    border: 1px solid white;
+    border-radius: 0.5*$font_basic;
+    }
+}
+
+    

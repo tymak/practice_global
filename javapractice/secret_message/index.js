@@ -28,7 +28,7 @@ const zneviditelneni = () => {
 }
 
 const inicializace = () => {
-    console.log("aho");
+    console.log("ahoj");
     zviditelneni();
     zneviditelneni()
 }

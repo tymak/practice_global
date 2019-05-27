@@ -1,0 +1,29 @@
+$red: #0005f0;
+$font:Arial;
+$sizemenu:5rem;
+$fontsize:1rem;
+$blue:#0000ff;
+$darker_blue:$blue + #222222;
+
+
+body {
+
+    color: $red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*clien want this*/ 
+h1{
+    background-color: $red;
+}
+
+footer{
+        color:$red;
+        height:2 * $fontsize + $sizemenu;
+        nav{
+            display:flex;
+            justify-content: space-between;
+}
+
+}
+// @import(header.scss)                             vlozeni casti kodu

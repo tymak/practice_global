@@ -1,0 +1,62 @@
+body{
+    width:100vw;
+    background-color: gray;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:70vw;
+    background-color: white;
+    margin:0 auto;
+
+}
+.unicorn{
+    align-self: flex-start;
+    margin:1rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:30vw;
+   
+  
+}
+
+.chatbot{
+    align-self: flex-end;
+    margin:1rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:30vw;
+    
+}
+p{
+
+border-radius:5px;
+width:80%;
+font-size:200%;
+height:100%;
+text-align: center;
+padding-top:auto;
+padding-bottom: auto;
+display:flex;
+flex-direction: column;
+justify-content: center;   
+
+
+
+}
+img{
+    width:15%;
+    height: auto;
+    align-self: flex-start
+}
+.unicorn p{
+    background-color: blue;  
+    color:white;
+}
+.chatbot p{
+    background-color: grey;  
+}

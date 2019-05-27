@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:10rem;
+}
+#zadani, #vysledek{
+width: 90%;
+height:2rem;
+border:2px solid black;
+padding:0.1rem;
+margin:0.25rem;
+
+
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:9rem;
+    padding:0.1rem;
+    margin:0.25rem;
+    border:2px solid black;
+}
+#plus, #rovnase, #odecti{
+    width:5rem;
+    height:2rem;
+    margin:0.5rem;
+    border:2px solid black;
+}

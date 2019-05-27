@@ -1,0 +1,102 @@
+$content_size:70vw;
+// $h1_height:2rem;
+// $p1_height: 0.9*$h1_height;
+$h1_size:4rem;
+$p1_size:0.6*$h1_size;
+$content_width:50rem;  
+$content_height:10rem;
+$font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+html{
+font-family:$font-family;
+}
+
+nav{
+    background-color: grey;
+    color:white;
+    display:flex;
+    justify-content: left;
+    
+    a{
+        text-decoration:none;
+    padding:0.5rem;
+    color:white;
+    }
+
+}
+
+header{
+background-image: url("./../img/welcome.jpg");
+background-repeat: no-repeat;
+background-position: center;
+padding-top:$h1_size;
+padding-bottom: $h1_size;
+    h1{
+     font-size:$h1_size;
+      text-align: center;
+      color: white; 
+      padding:0.1*$h1_size;
+    }
+    p{
+        font-size: $p1_size;
+        text-align: center;
+        color: grey; 
+        padding:0.1*$h1_size; 
+    }
+}
+main{
+    margin-top:$h1_size/2;
+
+
+}
+.uvod{
+    margin-top:$h1_size/2;
+    width:50rem;
+    height: $content_height;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+    span.container{
+        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        img{
+            width:15rem;}
+            span{
+                text-align:left;
+                padding:1rem;
+            }
+    }
+}
+
+.obrazek{
+    background-image: url("./../img/standing.jpg");
+    border:2px solid black;
+    height:$content_height;
+
+
+
+
+
+// span{      
+//     display:flex;
+//     flex-direction: column;
+//     justify-content: center;
+  
+
+//     h2{
+//         text-align: center;}
+    
+        
+    
+//     div{
+//         text-align: left;
+//         font-size: 110%;
+//     }

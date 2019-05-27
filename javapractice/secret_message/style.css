@@ -22,4 +22,5 @@ img{
 font-size:150%;
 opacity: 0;
 width:60vw;
+transition: 2s;
 }
